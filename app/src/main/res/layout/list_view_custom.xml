@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#000000">
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/wp_000001"/>
+    <TextView
+        android:id="@+id/picture_title"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/picture"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/apple"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/picture_rating"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/picture_title"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/apple"
+        android:gravity="center"
+        android:background="@drawable/selector"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:layout_below="@+id/picture"/>
+
+
+</RelativeLayout>

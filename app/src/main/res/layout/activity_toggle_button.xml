@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ToggleButton
+        android:id="@+id/toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Turn Off"
+        android:textOff="Turn On"
+        android:layout_gravity="center_horizontal"
+        android:onClick="changeToggleState"/>
+    <Switch
+        android:id="@+id/switch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textOff="Wifi Off"
+        android:textOn="Wifi On"/>
+    <TextView
+        android:id="@+id/toggle_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apple"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceLarge"/>
+</LinearLayout>

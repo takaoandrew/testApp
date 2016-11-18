@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="welcome">Welcome to the demo collection</string>
+    <string name="text_input_activity">Text Input Activity</string>
+    <string name="auto_complete_activity">Auto Complete Activity</string>
+    <string name="email">Enter an email address</string>
+    <string name="mobile">Enter a phone number</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="countries">Select Country</string>
+    <string-array name="country_names">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Azerbaijan</item>
+    </string-array>
+    <string name="checkbox_activity">Checkbox Activity</string>
+    <string name="select_fruits">Select Fruits</string>
+    <string name="apple">Apple</string>
+    <string name="orange">Orange</string>
+    <string name="grape">Grape</string>
+    <string name="submit">Submit</string>
+    <string name="toggle_button_activity">Toggle Button Activity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="spinner_activity">Spinner Activity</string>
+    <string name="select_country">Select Country</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="listview_activity">ListView Activity</string>
+    <string-array name="android_versions">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Jelly Bean</item>
+        <item>KitKat</item>
+        <item>Lollipop</item>
+    </string-array>
+    <string-array name="picture_titles">
+        <item>Picture 1</item>
+        <item>Picture 2</item>
+        <item>Picture 3</item>
+        <item>Picture 4</item>
+        <item>Picture 5</item>
+        <item>Picture 6</item>
+        <item>Picture 7</item>
+        <item>Picture 8</item>
+        <item>Picture 9</item>
+        <item>Picture 10</item>
+    </string-array>
+    <string-array name="picture_ratings">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="pictures_label">10 Pictures</string>
+    <string name="time_picker_activity">Time Picker Activity</string>
+    <string name="show_dialog">Show Time</string>
+    <string name="show_dialog_2">Show Date</string>
+</resources>

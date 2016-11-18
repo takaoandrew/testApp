@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+    <TextView
+        android:id="@+id/select_fruits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/select_fruits"/>
+    <CheckBox
+        android:id="@+id/apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apple"
+        android:onClick="selectItem"/>
+    <CheckBox
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/orange"
+        android:onClick="selectItem"/>
+    <CheckBox
+        android:id="@+id/grape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grape"
+        android:onClick="selectItem"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit"
+        android:onClick="submit"/>
+    <TextView
+        android:id="@+id/final_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
